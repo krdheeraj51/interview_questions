@@ -79,8 +79,8 @@ It is of two types:
 * Dynamically: In this, the variable can hold multiple types; like in JS a variable can take number, chars.
 * Statically: In this, the variable can hold only one type, like in Java a variable declared of string can take only set of characters and nothing else.
 
-Q12. What is the difference between Call & Apply?
-The call() method calls a function with a given this value and arguments provided individually.
+Q12. What is the difference between Call & Apply? <br/>
+Ans: The call() method calls a function with a given this value and arguments provided individually.
 ```
 Syntax-
 fun.call(thisArg[, arg1[, arg2[, ...]]])

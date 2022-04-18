@@ -64,3 +64,29 @@ Ans: There are 3 ways to create an array in JavaScript.
 Let's see a simple code to create an array using object literal.
 
 var emp=["Shyam","Vimal","Ratan"];    
+
+Q10. What are the ways to define a variable in JavaScript?<br/>
+Ans: The three possible ways of defining a variable in JavaScript are:
+
+* Var – The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable. Example: var a =10; Variable declarations are processed before the execution of the code.
+* Const – The idea of const functions is not allow them to modify the object on which they are called. When a function is declared as const, it can be called on any type of object.
+* Let – It is a signal that the variable may be reassigned, such as a counter in a loop, or a value swap in an algorithm. It also signals that the variable will be used only in the block it’s defined in.
+
+Q11. What is a Typed language?<br/>
+Ans: Typed Language is in which the values are associated with values and not with variables. <br>
+It is of two types:
+
+* Dynamically: In this, the variable can hold multiple types; like in JS a variable can take number, chars.
+* Statically: In this, the variable can hold only one type, like in Java a variable declared of string can take only set of characters and nothing else.
+
+Q12. What is the difference between Call & Apply?
+The call() method calls a function with a given this value and arguments provided individually.
+```
+Syntax-
+fun.call(thisArg[, arg1[, arg2[, ...]]])
+```
+The apply() method calls a function with a given this value, and arguments provided as an array.
+```
+Syntax-
+fun.apply(thisArg, [argsArray])
+```

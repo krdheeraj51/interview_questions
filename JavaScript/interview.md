@@ -52,9 +52,9 @@ Ans: There are 3 ways to create an object in JavaScript.
 * By creating an instance of Object
 * By Object Constructor
 Let's see a simple code to create an object using object literal.
-
+```
 emp={id:102,name:"Rahul Kumar",salary:50000}   
-
+```
 Q10. How to create an array in JavaScript?<br/>
 Ans: There are 3 ways to create an array in JavaScript.
 
@@ -62,9 +62,9 @@ Ans: There are 3 ways to create an array in JavaScript.
 * By creating an instance of Array
 * By using an Array constructor
 Let's see a simple code to create an array using object literal.
-
+```
 var emp=["Shyam","Vimal","Ratan"];    
-
+```
 Q10. What are the ways to define a variable in JavaScript?<br/>
 Ans: The three possible ways of defining a variable in JavaScript are:
 

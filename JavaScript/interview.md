@@ -80,13 +80,22 @@ It is of two types:
 * Statically: In this, the variable can hold only one type, like in Java a variable declared of string can take only set of characters and nothing else.
 
 Q12. What is the difference between Call & Apply? <br/>
-Ans: The call() method calls a function with a given this value and arguments provided individually.
-```
+Ans: The call() method calls a function with a given this value and arguments provided individually.<br/>
 Syntax-
+```
 fun.call(thisArg[, arg1[, arg2[, ...]]])
 ```
-The apply() method calls a function with a given this value, and arguments provided as an array.
-```
+The apply() method calls a function with a given this value, and arguments provided as an array.<br/>
 Syntax-
+```
 fun.apply(thisArg, [argsArray])
+```
+Q13. What is an Immediately Invoked Function in JavaScript? <br/>
+Ans: An Immediately Invoked Function ( known as IIFE and pronounced as IIFY) is a function that runs as soon as it is defined.
+
+Syntax of IIFE :
+```
+(function(){ 
+  // Do something;
+})();
 ```
